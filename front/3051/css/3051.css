@@ -1,0 +1,46 @@
+.type-3051 body {
+  font-family: Arial, sans-serif;
+}
+.type-3051 .background {
+  background-color: #efeff0;
+}
+.type-3051 .container h4 {
+  font-weight: 600;
+}
+.type-3051 .container h3 {
+  font-weight: 600;
+}
+.type-3051 .container h2 {
+  font-weight: 600;
+  margin: 50px 0;
+}
+.type-3051 .header {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.type-3051 .header .check {
+  padding-right: 5px;
+}
+.type-3051 .header .btn-check {
+  background-color: #f35f55;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+.type-3051 .info-container {
+  display: flex;
+}
+.type-3051 .info-container .icon {
+  text-align: center;
+  margin-right: 30px;
+  width: 50px;
+  font-size: 40px;
+  color: #f35f55;
+}
+.type-3051 .info-container .info h5 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}

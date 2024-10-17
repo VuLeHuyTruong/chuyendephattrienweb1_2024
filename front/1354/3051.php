@@ -12,22 +12,27 @@ if (!class_exists('lessc')) {
     require_once($dir_block . '/libs/lessc.inc.php');
 }
 $less = new lessc;
-$less->compileFile('less/1354.less', 'css/1354.css');
+$less->compileFile('less/3051.less', 'css/3051.css');
 ?>
 
 <!DOCTYPE html>
 <html>
     <head>
-        <title>1354</title>
+        <title>3051</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
       
+       
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+        <!-- <link rel="stylesheet" href="css/font-3051.css"> -->
+
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-              <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/1354.css" rel="stylesheet" type="text/css"/>
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/3051.css" rel="stylesheet" type="text/css"/>
  
     </head>
     <body>
-        <?php include './1354-content.php'; ?>
+        <?php include './3051-content.php'; ?>
     </body>
+    
 </html>
